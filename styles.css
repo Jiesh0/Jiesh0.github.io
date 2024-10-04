@@ -1,0 +1,67 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+    z-index: -1;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    display: inline-block;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 6rem 2rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.blog-post {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.blog-post:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    transform: translateY(-5px);
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: #333;
+}
